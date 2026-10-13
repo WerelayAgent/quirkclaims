@@ -2,8 +2,12 @@
   "framework": null,
   "rewrites": [
     {
+      "source": "/functions/v1/:path*",
+      "destination": "https://upucsumzkerkijktdhrv.supabase.co/functions/v1/:path*"
+    },
+    {
       "source": "/api/:path*",
-      "destination": "https://slop.claims/api/:path*"
+      "destination": "https://upucsumzkerkijktdhrv.supabase.co/functions/v1/:path*"
     },
     {
       "source": "/(.*)",
